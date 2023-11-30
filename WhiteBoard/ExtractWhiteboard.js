@@ -213,4 +213,4 @@ function CheckIntersection(shape, plainText) {
 }
 
   // Example usage
-  console.log(findIntersectingShapesAndPlainText());
+  // console.log(findIntersectingShapesAndPlainText());
