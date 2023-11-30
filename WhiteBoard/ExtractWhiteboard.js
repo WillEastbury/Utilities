@@ -212,5 +212,24 @@ function CheckIntersection(shape, plainText) {
     return false;
 }
 
-  // Example usage
-  // console.log(findIntersectingShapesAndPlainText());
+function generateMarkdownTable(data) {
+    // Start with the table header
+    var markdownTable = "| Category | Author | Content |\n| -------- | ------ | ------- |\n";
+
+    // Loop through each card and add rows to the table
+    data.cards.forEach(function(card) {
+        card.Hotspots.forEach(function(hotspot) {
+            // Add a row for each hotspot in the card
+            markdownTable += `| ${card.Category} | ${hotspot.Author} | ${hotspot.Content} |\n`;
+        });
+    });
+
+    return markdownTable;
+}
+
+// Example usage
+var intersectingData = findIntersectingShapesAndPlainText();
+var markdownTable = generateMarkdownTable(intersectingData);
+
+console.log(markdownTable);
+console.log(intersectingData);
