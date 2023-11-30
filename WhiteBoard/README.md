@@ -1,4 +1,4 @@
-# A handy script for classifying and grouping whiteboard data on export. 
+# A handy script for classifying and grouping Microsoft Whiteboard data on export. 
 
 ## Usage
 
