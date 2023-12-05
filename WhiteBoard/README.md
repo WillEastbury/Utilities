@@ -2,11 +2,11 @@
 
 ## Usage
 
-- Create a whiteboard
+- Create a whiteboard (Ideally use a template with predone boxes and titles) 
 - Put a load of unstructured notes on it
 - Brainstorm away
-- When done, draw some boxes to group the notes
-- Give each box a textbox for a heading
+- When done, draw some boxes to group the notes (if you didnt use a template)
+- Give each box a textbox for a heading (if you didnt use a template)
 - Make sure the notes are inside the boxes
 - Export it to html and open the html
 - Paste ExtractWhiteboard.js into the developer console. 
